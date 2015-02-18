@@ -24,7 +24,7 @@ Execute a verificação de senha
 if ( $pass->isStrongPassword( '123mudar!' ) ) {
     die( 'Tudo certo!' );
 } else {
-    die( $pass->getLastError() )
+    die( $pass->getLastError() );
 }
 ```
 
